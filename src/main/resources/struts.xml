@@ -8,14 +8,13 @@
     <constant name="struts.devMode" value="true" />
 
     <package name="basicstruts2" extends="struts-default">
-        <action name="index">
-            <result>/index.jsp</result>
-        </action>
         
+        <!-- Go to login page -->
         <action name="login">  
 			<result>/login.jsp</result>  
 		</action>  
-		  
+		
+		<!-- Go to a success page or a failed login page, depending on user credential authentication result. -->
 		<action name="loginProcess" class="login.LoginAction">  
 			<result name="success">/loginSuccess.jsp</result>  
 			<result name="error">/login.jsp</result>  

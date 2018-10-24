@@ -8,6 +8,7 @@
 </head>
 <body>
 
+	<!-- Success message for correct user credentials. -->
 	<h1 align="center">Successful login.</h1>
 	<h3 align="center"><a href="login">Logout</a></h3>
 

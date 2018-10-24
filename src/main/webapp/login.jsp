@@ -12,14 +12,16 @@
 <body>
 
 <h1 align="center">Let's Login!</h1>
-<h3 align="center">by Hans Albert Lianto, Gong Zhen and Hao Meiru</h3>
+<h3 align="center">CZ3002 Assignment #2 by Hans Albert Lianto, Gong Zhen and Hao Meiru</h3>
 
+<!-- Login form that redirects to loginProcess action once submitted -->
 <s:form action="loginProcess">
 	<s:textfield label="Username" key="username" align="center"/>
 	<s:password label="Password" key="password" align="center"/>
 	<s:submit align="center"/>
 </s:form>
 
+<!-- Action error that only appears if user credentials are wrong. -->
 <s:actionerror style="color: red"/>
 
 </body>
