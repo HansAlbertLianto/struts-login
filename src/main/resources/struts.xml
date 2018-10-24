@@ -11,6 +11,17 @@
         <action name="index">
             <result>/index.jsp</result>
         </action>
+        
+        <action name="login">  
+			<result>/login.jsp</result>  
+		</action>  
+		  
+		<action name="loginProcess" class="login.LoginAction">  
+			<result name="success">/loginSuccess.jsp</result>  
+			<result name="error">/login.jsp</result>  
+		</action>
+		
     </package>
+    
 
 </struts>
