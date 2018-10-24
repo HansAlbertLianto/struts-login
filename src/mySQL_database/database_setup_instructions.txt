@@ -1,6 +1,11 @@
 =============================================================================================================================================
 INSTRUCTIONS:
 =============================================================================================================================================
+1. Execute / import SQL file in dump_file folder (cz3002users.sql) into your mySQL Workbench to get the table structure and data.
+2. Make sure you create a connection with the database from the workbench with local host and port http://127.0.0.1:3306/. Otherwise, modify the LoginAuth.java code accordingly
+
+OR
+
 1. Setup mySQL Workbench with websiteuser folder.
 2. Connect it to the workbench with this local host and port http://127.0.0.1:3306/. Otherwise, modify the LoginAuth.java code accordingly.
 =============================================================================================================================================
